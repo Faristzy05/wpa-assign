@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>BMI Calculator</h1>
+    </header>
+	
+    <section>
+        <h2>What is BMI?</h2>
+        <p>Body Mass Index (BMI) is a measure of body fat based on height and weight. It is calculated by dividing a person's weight in kilograms by the square of their height in meters. This index provides a numerical value that helps categorize individuals into various weight status categories: underweight, normal weight, overweight, or obesity. While BMI is a useful screening tool for assessing potential weight-related health risks, it does not directly measure body fat or account for variations in muscle mass, bone density, or fat distribution. Therefore, while BMI can offer valuable insights into overall health, it should be interpreted alongside other health assessments and professional medical evaluations.</p>
+    </section>
+    <section>
+        <h2>Calculate Your BMI</h2>
+        <form id="bmiForm">
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" required>
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" required>
+            <button type="submit">Calculate</button>
+        </form>
+        <p id="bmiResult"></p>
+    </section>
+    <section>
+        <h2>BMI Categories</h2>
+        <ul>
+            <li>Underweight: BMI < 18.5</li>
+            <li>Normal weight: BMI 18.5–24.9</li>
+            <li>Overweight: BMI 25–29.9</li>
+            <li>Obesity: BMI 30 or higher</li>
+        </ul>
+    </section>
+	
+    <!-- Navigation Buttons -->
+    <div class="button-container">
+        <a href="index.html" class="custom-button">Home</a>
+        <a href="health.html" class="custom-button">Health Info</a>
+    </div>
+	
+    <footer>
+        <p>&copy; 2024 Your Health Hub</p>
+    </footer>
+
+    <!-- Background Audio -->
+    <audio id="backgroundAudio">
+        <source src="C:/Users/user/Documents/WPA/INDEX ASSIGN/Lady Gaga - Bloody mary instrumental (slowed) _ Best part ever _ Tiktok music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
